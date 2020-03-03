@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+}
+
+#bg-img {
+    background: url(./images/main.jpg) bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 645px;
+}
+nav {
+  width: 74%;
+  height: 37px;
+  margin: 5.6rem 0 0 5rem;
+  border-radius: 4px;
+  background-color: rgb(71, 71, 71);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  flex-grow: 1;
+    list-style-type: none;
+    border-right: 1px solid rgb(84, 84, 84);
+    background: linear-gradient( 0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141) );
+}
+nav ul a {
+  display: block;
+    height: 36px;
+    padding: 10px 0 0px 34px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+nav li:hover a {
+  border-color: transparent;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+}
+#search {
+    width: 136px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( 0deg, rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141) );
+}
+#search input {
+  padding-left: 2.2rem;
+    width: 80%;
+    height: 60%;
+    border: 0;
+    box-shadow: inset 0 1px 1px 1px rgb(48, 48, 48), inset 0 -1px 1px 1px rgb(128, 128, 128);
+    border-radius: 10px;
+    background-color: rgba(130, 130, 130, 0.32);
+    background-image: url(./images/search.svg);
+    background-position: 5px 5px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.5rem;
+}
+header img:nth-child(2) {
+  margin-top: -10px;
+}
+header img:last-child {
+  height: 32px;
+  margin-top: 2rem;
+  object-fit: cover;
+  object-position: top;
+}
+.product {
+  display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2px;
+}
+.product a img {
+  margin-right: 3px;
+}
