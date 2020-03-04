@@ -45,7 +45,7 @@ a {
 }
 
 .product a img {
-  margin-right: 3px;
+  width: 336px;
 }
 
 .main-nav ul a {
@@ -119,9 +119,9 @@ header img:last-child:hover {
 .footer-container {
   display: flex;
   justify-content: space-evenly;
-  font-size: small;
   margin-top: 17px;
-  color: rgb(110, 110, 110);
+  color: #6e6e6e;
+  font-size: .8334em;
 }
 
 .footer-container ul li {
@@ -137,6 +137,6 @@ header img:last-child:hover {
 
 .copyright p {
   margin: 9px 0 0 110px;
-  font-size: small;
-  color: rgb(110, 110, 110);
+  color: #6e6e6e;
+  font-size: .8334em;
 }
