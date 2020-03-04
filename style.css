@@ -45,7 +45,8 @@ a {
 }
 
 .product a img {
-  width: 336px;
+  width: 100%;
+  padding: 1px;
 }
 
 .main-nav ul a {
