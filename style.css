@@ -121,7 +121,7 @@ header img:last-child:hover {
   justify-content: space-evenly;
   margin-top: 17px;
   color: #6e6e6e;
-  font-size: .8334em;
+  font-size: 0.8334em;
 }
 
 .footer-container ul li {
@@ -138,5 +138,5 @@ header img:last-child:hover {
 .copyright p {
   margin: 9px 0 0 110px;
   color: #6e6e6e;
-  font-size: .8334em;
+  font-size: 0.8334em;
 }
