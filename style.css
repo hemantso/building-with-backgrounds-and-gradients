@@ -116,6 +116,10 @@ header img:last-child:hover {
   margin-top: 2px;
 }
 
+footer {
+  height: 64px;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-evenly;
