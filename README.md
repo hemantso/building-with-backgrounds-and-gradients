@@ -1,10 +1,10 @@
 # building-with-backgrounds-and-gradients
 
-> This project consists of building an HTML document that matches the appearance of youtube.
+> This project consists of building an HTML document that matches the appearance of Apple.com.
 
 ![screenshot](./images/Screenshot.png)
 
-Use of vectors of the icon on youtube with css and all of the page it's responsive.
+Use of Background image and linear gradient color.
 
 ## Built With
 
